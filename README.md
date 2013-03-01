@@ -12,12 +12,12 @@ if you  use google closure lib in your js, then it may be helpfull to you.
 
 ##argments:
 you can use these args:
---root_path: the root path, all other path is relative to this path. if not set, it will be the current path of this scripts.
---modules_path: the path where to get all provided modules
---fix_path: the path to fix
---ignore_path: ignore path
---ignore_module: ignore module, all it's submodules will be ignored if ends with *
---mod: three mod check/fix/remove. in check mod, it will only print out errs; in fix mod, it will print and fix errs; in remove mod, it will remove all the goog.require statement generate by this tool(depend on the // autofix comment)
+    --root_path: the root path, all other path is relative to this path. if not set, it will be the current path of this scripts.
+    --modules_path: the path where to get all provided modules
+    --fix_path: the path to fix
+    --ignore_path: ignore path
+    --ignore_module: ignore module, all it's submodules will be ignored if ends with *
+    --mod: three mod check/fix/remove. in check mod, it will only print out errs; in fix mod, it will print and fix errs; in remove mod, it will remove all the goog.require statement generate by this tool(depend on the // autofix comment)
 
 the args modules_path/fix_path/ignore_path can be file or dir path
 you can add many modules_path/fix_path/ignore_path/ignore_module args
