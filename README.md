@@ -19,7 +19,7 @@ you can use these args:
 * --ignore_module: ignore module, all it's submodules will be ignored if ends with *
 * --mod: three mod check/fix/remove. in check mod, it will only print out errs; in fix mod, it will print and fix errs; in remove mod, it will remove all the goog.require statement generate by this tool(depend on the // autofix comment)
 
-the args modules_path/fix_path/ignore_path can be file or dir path
+the args modules_path/fix_path/ignore_path can be file or dir path  
 you can add many modules_path/fix_path/ignore_path/ignore_module args
 
 ##example:
